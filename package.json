@@ -1,0 +1,49 @@
+{
+  "name": "@rodbe/config-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "nps",
+    "build": "npm start build",
+    "dev": "npm start dev",
+    "lint:fix": "npm start lint.fix",
+    "lint": "npm start lint.check",
+    "pre": "npm start version.pre",
+    "release": "npm start version.release"
+  },
+  "engines": {
+    "node": ">=12.22.7"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-yaml-config": "^1.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^13.2.1",
+    "@commitlint/config-conventional": "^13.2.0",
+    "@types/node": "^16.11.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "chalk": "^4.1.2",
+    "commitizen": "^4.2.4",
+    "eslint": "^8.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^11.2.4",
+    "nodemon": "^2.0.13",
+    "nps": "^5.10.0",
+    "nps-utils": "^1.7.0",
+    "prettier": "^2.4.1",
+    "release-it": "^14.11.6",
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.4"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "git": {
+    "changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to}",
+    "commit": true,
+    "commitMessage": "[ci skip]",
+    "push": true,
+    "pushArgs": ["--follow-tags"],
+    "tag": false
+  },
+  "github": {
+    "release": false
+  },
+  "gitlab": {
+    "release": false
+  },
+  "npm": {
+    "publish": false
+  }
+}

@@ -1,0 +1,17 @@
+.gitlab-ci.yml
+node_modules
+package-lock.json
+yarn.lock
+scripts
+test
+src
+.czrc
+.editorconfig
+.eslintignore
+.eslintrc.cjs
+.prettierignore
+.prettierrc.js
+.release-it.json
+lint-staged.config.js
+package-scripts.js
+tsconfig.json
